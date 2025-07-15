@@ -58,7 +58,7 @@ Columns are as follows:
   - Title types: `feature, tv_movie, tv_special, documentary, tv_series, short, video, tv_short`
   - Sorted by: Release date (descending)
 
-# 2. User Review Data for all movies in scraped from "1. Movie Data from Daily Search in Date Range"
+# 2. User Review Data for all movies scraped in "1. Movie Data from Daily Search in Date Range"
 ## Folder structure of `user_reviews/`
 
 ```
@@ -71,7 +71,7 @@ user_review/
 │   └── Movie_Title_2_page_2.csv
 ├── ...
 ```
-For each movie, per page of user reviews is collected in sequential csv file
+For each movie, if user reviews are available, then each page of user reviews is collected in sequential csv file
 
 ## Dataset Schema
 
