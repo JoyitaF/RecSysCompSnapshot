@@ -61,7 +61,7 @@ Columns are as follows:
 # 2. User Review Data for all movies in scraped from "1. Movie Data from Daily Search in Date Range"
 ## Folder structure of `user_reviews/`
 
-```plaintext
+```
 user_review/
 ├── Movie_Title_1/
 │   ├── Movie_Title_1_page_1.csv
@@ -70,6 +70,7 @@ user_review/
 │   ├── Movie_Title_2_page_1.csv
 │   └── Movie_Title_2_page_2.csv
 ├── ...
+```
 For each movie, per page of user reviews is collected in sequential csv file
 
 ## Dataset Schema
