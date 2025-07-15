@@ -101,7 +101,7 @@ Columns are as follows:
 
 ## Dataset Schema 
 
-Same as 1. Movie Data from Daily Search in Date Range:
+Same as "1. Movie Data from Daily Search in Date Range"
 
 # Limitations & Notes
 
