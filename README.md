@@ -22,7 +22,7 @@ Columns are as follows:
 | `short_description`     | `string`             | Brief synopsis or description                                |
 | `how_many_people_rated` | `int`/`N/A`          | Total number of votes                                        |
 | `movie_popularity_score`| `float`/`N/A`        | If movie in IMDB Most Popular, this is the ranking           |
-| `director_name`         | `string`/None        | Director name                                                |
+| `director_name`         | `list[string]`       | Director name  list, max 3 directors, default None list      |
 | `writer_name`           | `list[string]`       | Writer name list, max 5 writers, default None list           |
 | `star_name`             | `list[string]`       | Star name list, default None list                            |
 | `user_review`           | `int`                | Number of user reviews                                       |
