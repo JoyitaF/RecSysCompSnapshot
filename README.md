@@ -103,6 +103,15 @@ Columns are as follows:
 
 Same as "1. Movie Data from Daily Search in Date Range"
 
+# 4. MovieLens Latest Small 
+## Dataset in `ml-latest-small/` contains links.csv, movies.csv, ratings.csv, and tags.csv
+
+Ground Truth dataset for Ranking System of Movie Recommendation. 
+
+This dataset (ml-latest-small) describes 5-star rating and free-text tagging activity from MovieLens, a movie recommendation service. It contains 100836 ratings and 3683 tag applications across 9742 movies. These data were created by 610 users between March 29, 1996 and September 24, 2018. This dataset was generated on September 26, 2018. 
+
+You can find further details in the ml-latest-small/README.txt
+
 # Limitations & Notes
 
 - `'N/A'` or None (blank) is used where values are missing.
